@@ -52,13 +52,25 @@ The project follows a modular signal processing pipeline:
 ---
 
 ## 📸 Dashboard Preview
-![VitalSense Dashboard](https://your-image-link-here.com/dashboard.png)
-*(Buraya hazırladığın dashboard ekran görüntüsünü yükleyip linkini ekleyebilirsin)*
+<img width="1416" height="770" alt="Ekran Resmi 2026-03-16 18 02 56" src="https://github.com/user-attachments/assets/887edf4e-832b-4e6a-b619-90cc3be10104" />
 
----
 
-## 🚀 Installation & Usage
+---<img width="1420" height="775" alt="Ekran Resmi 2026-03-16 18 03 21" src="https://github.com/user-attachments/assets/45e648e6-b520-4337-bdf0-f95f127e18cc" />
 
-1. **Clone the repo:**
-   ```bash
-   git clone [https://github.com/yourusername/VitalSense.git](https://github.com/yourusername/VitalSense.git)
+
+## 🚀 Live Demo
+
+A real-time monitoring dashboard is available here:
+
+https://vital-sensor-fusion.web.app
+
+The dashboard visualizes:
+
+- Raw PPG signal
+- Motion activity
+- SpO₂ trend
+- Pulse rate trend
+- Reliability score
+- Decision layer (Display / Warning / Suppress)
+
+This demonstrates how the system reacts to motion artifacts and gradually restores measurement confidence.
