@@ -8,7 +8,7 @@ VitalSense is an R&D prototype designed to solve the **"Alarm Fatigue"** problem
 - [System Architecture](#system-architecture)
 - [Features](#features)
 - [Hardware Stack](#hardware-stack)
-- [Installation & Usage](#installation--usage)
+- [Live Demo](#-live-demo)
 
 ---
 
@@ -27,8 +27,9 @@ VitalSense doesn't just display data; it questions its **validity**. By fusing P
 The project follows a modular signal processing pipeline:
 
 1.  **Data Acquisition:** Real-time streaming from Renesas (PPG) and TI SensorTag (IMU).
-2.  **Preprocessing:** - **PPG:** 0.5–4 Hz Band-pass filtering to remove high-frequency noise and baseline wander.
-    - **IMU:** Rolling average for motion stabilization.
+2. **Preprocessing**
+   - **PPG:** 0.5–4 Hz band-pass filtering to remove high-frequency noise and baseline wander  
+   - **IMU:** Rolling average for motion stabilization
 3.  **Feature Extraction:** Peak detection for HR/BPM and Magnitude calculation for motion.
 4.  **Sensor Fusion Layer:** Calculation of the *Signal Reliability Score* based on PI (Perfusion Index) and Motion Magnitude.
 5.  **Decision Layer:**
@@ -60,9 +61,9 @@ The project follows a modular signal processing pipeline:
 
 ## 🚀 Live Demo
 
-A real-time monitoring dashboard is available here:
+You can explore the real-time monitoring dashboard here:
 
-https://vital-sensor-fusion.web.app
+👉 https://vital-sensor-fusion.web.app
 
 The dashboard visualizes:
 
